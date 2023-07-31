@@ -1,0 +1,10 @@
+flask==2.0.1
+torch==1.9.0
+torchvision==0.10.0
+pytesseract==0.3.8
+spacy==3.0.6
+opencv-python==4.5.3.56
+pyyaml==5.4.1
+requests==2.26.0
+pillow==8.3.1
+flask-cors==3.0.10
