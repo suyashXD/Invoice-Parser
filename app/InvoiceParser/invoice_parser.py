@@ -5,13 +5,21 @@ import sys
 import re
 
 # Add the project root directory to sys.path (optional if not using as a package)
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+
+# Add the project root directory to the Python path
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.append(project_root)
 
 # Now, you should be able to import modules from the project
-from OCR.ocr_engine import perform_ocr
-from NER.ner_engine import perform_ner
-from utils.date_parser import extract_dates_from_text
+
+
+from app.OCR.ocr_engine import perform_ocr
+from app.NER.ner_engine import perform_ner
+
+from app.utils.date_parser import extract_dates_from_text
+
+
 
 # ... (Rest of the code remains the same)
 

@@ -1,0 +1,7 @@
+
+{
+    "model_name": "OCRModel",
+    "input_size": [800, 600],
+    "denoising_strength": 10,
+    "threshold_value": 0
+}

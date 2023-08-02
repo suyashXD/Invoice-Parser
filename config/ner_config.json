@@ -1,0 +1,6 @@
+{
+    "model_name": "NERModel",
+    "input_size": [256, 256],
+    "num_classes": 5,
+    "embedding_dim": 256
+}

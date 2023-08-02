@@ -1,0 +1,18 @@
+# models/ocr_model.pth (Placeholder code for a dummy OCR model)
+import torch
+import torch.nn as nn
+
+class DummyOCRModel(nn.Module):
+    def __init__(self):
+        super(DummyOCRModel, self).__init__()
+        # Define your OCR model architecture here
+
+    def forward(self, x):
+        # Define the forward pass of your OCR model here
+        return x
+
+# Create a dummy OCR model instance
+ocr_model = DummyOCRModel()
+
+# Save the model to the file 'ocr_model.pth'
+torch.save(ocr_model.state_dict(), 'models/ocr_model.pth')

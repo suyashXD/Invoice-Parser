@@ -1,0 +1,18 @@
+# models/ner_model.pth (Placeholder code for a dummy NER model)
+import torch
+import torch.nn as nn
+
+class DummyNERModel(nn.Module):
+    def __init__(self):
+        super(DummyNERModel, self).__init__()
+        # Define your NER model architecture here
+
+    def forward(self, x):
+        # Define the forward pass of your NER model here
+        return x
+
+# Create a dummy NER model instance
+ner_model = DummyNERModel()
+
+# Save the model to the file 'ner_model.pth'
+torch.save(ner_model.state_dict(), 'models/ner_model.pth')
