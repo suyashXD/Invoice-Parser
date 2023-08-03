@@ -103,7 +103,7 @@ def parse_invoice(image_path):
 
 if __name__ == "__main__":
     # Replace 'invoice.jpg' with the path to your actual invoice image
-    invoice_image_path = r"C:\Users\zucck\OneDrive\Desktop\InvoiceParser\data\sample_invoices\invoice.jpg"
+    invoice_image_path = r"C:\Users\zucck\OneDrive\Desktop\InvoiceParserMain\data\sample_invoices\invoice.jpg"
 
     # Call the parse_invoice function to extract information from the invoice image
     invoice_info = parse_invoice(invoice_image_path)
